@@ -116,7 +116,7 @@ export const useSettingsStore = defineStore(STORES.SETTINGS, {
 			return this.settings.deployment?.type.startsWith('desktop_');
 		},
 		isCloudDeployment(): boolean {
-			return this.settings.deployment?.type === 'cloud';
+			return true; //this.settings.deployment?.type === 'cloud';
 		},
 		isSmtpSetup(): boolean {
 			return this.userManagement.smtpSetup;
