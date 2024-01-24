@@ -863,7 +863,7 @@
     "moment": "2.29.4",
     "moment-timezone": "0.5.37",
     "mongodb": "4.17.1",
-    "mqtt": "5.0.2",
+    "mqtt": "5.3.5",
     "mssql": "8.1.4",
     "mysql2": "2.3.3",
     "n8n-workflow": "workspace:*",
